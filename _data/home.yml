@@ -9,15 +9,16 @@ navbar_entries:
     url: https://www.abhinav.co
 
 project_entries:
-  - title: Thesis Master's
+  - title: Master's Thesis -Detecting Coordinated Activities through OnlyFans\’ Tweets
     url: overview-post
-    desc: HEC Montreal Thesis - 2022 - Detecting Coordinated Activities through OnlyFans\’ Tweets
+    desc: HEC Montreal Thesis completed in 2022 - Detecting Coordinated Activities through OnlyFans\’ Tweets. During most of the thesis I was financed by Mila Institute through
+    professors Golnoosh Fernadi (Supervisor) and (Co-supervisor)
 
-  - title: Project 2
+  - title: 
     url: overview-post
     desc: Projects are shown in card layout
 
-  - title: Project 3
+  - title: Macro VBA - Automation 
     url: overview-post
     desc: You can control visibility from _config.yml file
 
@@ -26,12 +27,12 @@ project_entries:
     desc: This project uses highlight markup, configured in _data/home.yml
     highlight: WIP
 
-  - title: Project 5
+  - title: R project
     url: overview-post
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
-  - title: Project 6
+  - title: Economy project
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
