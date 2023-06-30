@@ -11,7 +11,7 @@ navbar_entries:
 project_entries:
   - title: Thesis Master's
     url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    desc: HEC Montreal Thesis - 2022 - Detecting Coordinated Activities through OnlyFans\’ Tweets
 
   - title: Project 2
     url: overview-post
