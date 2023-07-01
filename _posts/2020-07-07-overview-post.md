@@ -5,7 +5,7 @@ tags: [overview, moonwalk]
 ---
 below is the PDF
 
-<embed src="/images/Maricarmen_Thesis__Copy__with_articles-4-ENG.pdf"  />
+<embed src="/images/Maricarmen_Thesis__Copy__with_articles-4-ENG.pdf" width=100% height=850px />
 
 # Sample heading 1
 ## Sample heading 2
