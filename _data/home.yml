@@ -11,8 +11,7 @@ navbar_entries:
 project_entries:
   - title: Detecting Coordinated Activities through OnlyFans\ Tweets
     url: overview-post
-    desc: This Thesis was conducted during my studies at HEC Montreal. In this thesis by articles, 
-    we present a research paper that we submitted for theWebSci\23.
+    desc: This Thesis was conducted during my studies at HEC Montreal. In this thesis by articles,  we present a research paper that we submitted for theWebSci\23.
   - title: Project 2
     url: overview-post
     desc: Projects are shown in card layout
