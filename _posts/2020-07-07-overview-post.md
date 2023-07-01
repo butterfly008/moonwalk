@@ -4,8 +4,9 @@ author: Abhinav Saxena
 tags: [overview, moonwalk]
 ---
 below is the PDF
+<embed src="butterfly008.github.io\images\Maricarmen_Thesis__Copy__with_articles-4-ENG.pdf" type="application/pdf" />
 
-xfun::embed_file("C:\Users\15147\Documents\butterfly008.github.io\images\Maricarmen_Thesis__Copy__with_articles-4-ENG.pdf")
+
 # Sample heading 1
 ## Sample heading 2
 ### Sample heading 3
