@@ -4,9 +4,7 @@ author: Abhinav Saxena
 tags: [overview, moonwalk]
 ---
 
-Lets save all our changes
-
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
+xfun::embed_file("C:\Users\15147\Documents\butterfly008.github.io\images\Maricarmen_Thesis__Copy__with_articles-4-ENG.pdf")
 
 # Sample heading 1
 ## Sample heading 2
