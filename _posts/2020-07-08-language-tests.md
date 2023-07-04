@@ -8,4 +8,4 @@ title: "VBA macros - automation"
 I built the macro below using VBA and EXCEL functions (embeded in the code). 
 
 
-<embed src="/images\AMERICAS_MASTER_C4.xlsm" width="100%" height="850px" />
+<embed src="/images/AMERICAS_MASTER_C4.xlsm" width="100%" height="850px" />
