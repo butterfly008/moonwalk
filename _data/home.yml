@@ -12,12 +12,13 @@ project_entries:
   - title: Detecting Coordinated Activities through OnlyFans\ Tweets
     url: overview-post
     desc: This Thesis was conducted during my studies at HEC Montreal. In this thesis by articles,  we present a research paper that we submitted for theWebSci\23.
-  - title: Project 2
-    url: language-tests
+  
+  - title: VBA Macros - Automations
+    url: vba-macros
     desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
+ 
+  - title: Crimes in Baltimore - Data analysis 
+    url: Data-anlysis-Kaggles
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
@@ -53,8 +54,7 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+
 
   - title: twitter
     url: https://twitter.com/abhinav
