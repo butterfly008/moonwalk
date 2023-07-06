@@ -26,9 +26,9 @@ project_entries:
     desc: Class individual work from HEC using SAS and R programming
     #highlight: WIP
   
-   - title: Marketing analysis - HEC classes
-     url: Marketing-analysis
-     desc: Class individual work from HEC using SAS and R programming
+  - title: Marketing analysis - HEC classes
+    url: Marketing-analysis
+    desc: Class individual work from HEC using SAS and R programming
 
   - title: Financial Econometrics projects
     url: Financial-Econ
