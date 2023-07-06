@@ -10,32 +10,44 @@ navbar_entries:
 
 project_entries:
   - title: Detecting Coordinated Activities through OnlyFans\ Tweets
-    url: overview-post
-    desc: This Thesis was conducted during my studies at HEC Montreal. In this thesis by articles,  we present a research paper that we submitted for theWebSci\23.
-  
+    url: Thesis-Masters
+    desc: This Thesis was conducted during my studies at HEC Montreal. Thanks to my Mila affiliation (through my supervisors) I was able to ue the Mila servers and was able to co-author a published paper based on this thesis. Most of the work is done with Python.
+
   - title: VBA Macros - Automations
     url: vba-macros
-    desc: Projects are shown in card layout
+    desc: Some of examples of Auotmation done with VBA that I'm allowed to show.
  
   - title: Crimes in Baltimore - Data analysis 
     url: Data-anlysis-Kaggles
-    desc: You can control visibility from _config.yml file
+    desc: Link to my project done on jupyter notebook in Kaggle
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: Statistical Analysis - HEC classes
+    url: stat-analysis
+    desc: Class individual work from HEC using SAS and R programming
+    #highlight: WIP
+  
+   - title: Marketing analysis - HEC classes
+    url: Marketing-analysis
+    desc: Class individual work from HEC using SAS and R programming
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
+  - title: Financial Econometrics projects
+    url: Financial-Econ
+    desc: Projects done during my final year at UQAM - studies done with SAS and R
     highlight: WIP
 
   - title: Project 6
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
-old_project_entries:
+  - title: P
+    url: overview-post
+    desc: It also has a scalable vertical list (in case you need it)
+
+  - title: Research paper analysis
+    url: overview-post
+    desc: It also has a scalable vertical list (in case you need it)
+
+Artistic_projects:
   - title: Soopr
     url: https://www.soopr.co
     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
@@ -54,10 +66,6 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-
-
-  - title: twitter
-    url: https://twitter.com/abhinav
 
   - title: github
     url: https://github.com/abhinavs
