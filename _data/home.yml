@@ -1,6 +1,6 @@
 navbar_entries:
-  - title: about
-    url: about
+  - title: CV-Work Experience
+    url: Work_Experience
 
   - title: blog
     url: blog
