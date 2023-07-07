@@ -5,4 +5,4 @@ title: About me
 
 ## Images
 
-![theme me](/images/me.jpg)
+![theme me](/images/me.jpg){ width=20% }
