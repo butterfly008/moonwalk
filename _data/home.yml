@@ -22,7 +22,7 @@ project_entries:
     desc: Some of examples of Auotmation done with VBA that I'm allowed to show.
  
   - title: Crimes in Baltimore - Data analysis 
-    url: Data-anlysis-Kaggles
+    url: Data-analysis-Kaggles
     desc: Link to my project done on jupyter notebook in Kaggle
 
   - title: Statistical Analysis - HEC classes
