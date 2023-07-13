@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<img src="/images/mainimage.png" width="400">
+<img src="/images/mainimage.png" width="300">
 
 
 Welcome to my website! My name is Maricarmen and here you can find sample of my work and projects.
