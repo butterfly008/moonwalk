@@ -43,9 +43,9 @@ project_entries:
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
-  - title: P
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: SLQ exercises
+    url: SQL-exercises
+    desc: Sample exercises
 
   - title: Research paper analysis
     url: overview-post
