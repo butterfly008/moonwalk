@@ -2,7 +2,7 @@
 layout: post
 ---
 
-# Language Test
+# SQL exercises
 
 
 

@@ -79,3 +79,19 @@ Proin quis velit et eros auctor laoreet. Aenean eget nibh odio. Suspendisse moll
 ## The end
 
 Donec ex lectus, tempus non lacinia quis, pretium non ipsum. Praesent est nunc, rutrum vel tellus eu, tristique laoreet purus. In rutrum orci sit amet ex ornare, sit amet finibus lacus laoreet. Etiam ac facilisis purus, eget porttitor odio. Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus. Vivamus at purus sed urna sollicitudin mattis. Mauris lacinia libero in lobortis pulvinar. Nullam sit amet condimentum justo. Donec orci justo, pharetra ut dolor non, interdum finibus orci. Proin vitae ante a dui sodales commodo ac id elit. Nunc vel accumsan nunc, sit amet congue nunc. Aliquam in lacinia velit. Integer lobortis luctus eros, in fermentum metus aliquet a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+
+[Soopr][soopr-website] is the easiest way for you to add share & reaction buttons to your blog and website, integrate an URL shortener and simple to understand analytics service. Soopr lets you manage all of these using a powerful dashboard.
+
+Moonwalk uses Soopr for share and like buttons and it is already integrated. By default, Moonwalk shows `circular` Twitter, Facebook and Copy buttons in `base` size. To add `like` button, please signup for free on [Soopr][soopr-website]
+
+Once you have signed up on Soopr, get a publish token for your website and edit `_config.yml` file and add it under `soopr` key and restart the server.
+```yml
+soopr:
+  publish-token: "ADD_YOUR_PUBLISH_TOKEN_HERE" 
+```
+
+Check out the [Soopr Website][soopr-website] for more info on how to get the most out of Soopr.
+
+[soopr-website]: https://www.soopr.co
+
