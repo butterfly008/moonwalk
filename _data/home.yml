@@ -13,39 +13,35 @@ navbar_entries:
 
 
 project_entries:
-  - title: Detecting Coordinated Activities through OnlyFans\ Tweets
+  - title: Detecting Coordinated Activities through OnlyFans Tweets using Machine learning
     url: Thesis-Masters
-    desc: This Thesis was conducted during my studies at HEC Montreal. Thanks to my Mila affiliation (through my supervisors) I was able to ue the Mila servers and was able to co-author a published paper based on this thesis. Most of the work is done with Python.
+    desc: This Thesis was conducted during my studies at HEC Montreal. Here I showcase my work in a PDF format that you can download.
 
   - title: VBA Macros - Automations
     url: vba-macros
-    desc: Some of examples of Auotmation done with VBA that I'm allowed to show.
+    desc: Some examples of Auotmation done with VBA. The Excel macros are showcased here and can also be downloaded.  
  
   - title: Crimes in Baltimore - Data analysis 
     url: Data-analysis-Kaggles
-    desc: Link to my project done on jupyter notebook in Kaggle
-
-  - title: Statistical Analysis - HEC classes
-    url: stat-analysis
-    desc: Class individual work from HEC using SAS and R programming
+    desc: Here you can find a Link to my project done jupiter 
     #highlight: WIP
   
   - title: Marketing analysis - HEC classes
     url: Marketing-analysis
-    desc: Class individual work from HEC using SAS and R programming
+    desc: Class individual work from HEC using SAS and R programming.
 
   - title: Financial Econometrics projects
-    url: Financial-Econ
-    desc: Projects done during my final year at UQAM - studies done with SAS and R
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+    url: Financial-market-project
+    desc: Project done during my Financial Econometric class - Here I showcase the R code and the PDF file ( can be downloaded). The project is written in French and will eventually be translated.
+   # highlight: WIP
 
   - title: SLQ exercises
     url: SQL-exercises
-    desc: Sample exercises
+    desc: Sample exercises - The exercise questions are written in French and will eventually be translated.
+
+  - title: Twitter API V2
+    url: Twitter-API-V2
+    desc: Python code to retreive twitters with V2 API version
 
   - title: Research paper analysis
     url: overview-post
