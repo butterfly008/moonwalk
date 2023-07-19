@@ -25,10 +25,6 @@ project_entries:
     url: Data-analysis-Kaggles
     desc: Here you can find a Link to my project done jupiter 
     #highlight: WIP
-  
-  - title: Marketing analysis - HEC classes
-    url: Marketing-analysis
-    desc: Class individual work from HEC using SAS and R programming.
 
   - title: Financial Econometrics projects
     url: Financial-market-project
@@ -43,9 +39,6 @@ project_entries:
     url: Twitter-API-V2
     desc: Python code to retreive twitters with V2 API version
 
-  - title: Research paper analysis
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
 
 Artistic_projects:
   - title: Soopr
