@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Detecting Coordinated Activities through OnlyFans Tweets using Machine learning
 author: Maricarmen
 #tags: [overview, moonwalk]
 ---
