@@ -14,7 +14,7 @@ navbar_entries:
 
 project_entries:
   - title: Detecting Coordinated Activities through OnlyFans Tweets using Machine learning
-    url: Thesis-Masters
+    url: thesis-masters
     desc: This Thesis was conducted during my studies at HEC Montreal. Here I showcase my work in a PDF format that you can download.
 
   - title: VBA Macros - Automations
@@ -22,21 +22,21 @@ project_entries:
     desc: Some examples of Auotmation done with VBA. The Excel macros are showcased here and can also be downloaded.  
  
   - title: Crimes in Baltimore - Data analysis 
-    url: Data-analysis-Kaggles
+    url: data-analysis-kaggles
     desc: Here you can find a Link to my project done jupiter 
     #highlight: WIP
 
   - title: Financial Econometrics projects
-    url: Financial-market-project
+    url: financial-market-project
     desc: Project done during my Financial Econometric class - Here I showcase the STATA code and the PDF file ( can be downloaded). The project is written in French and will eventually be translated.
    # highlight: WIP
 
   - title: SLQ exercises
-    url: SQL-exercises
+    url: sql-exercises
     desc: Sample exercises - The exercise questions are written in French and will eventually be translated.
 
   - title: Twitter API V2
-    url: Twitter-API-V2
+    url: twitter-api-v2
     desc: Python code to retreive twitters with V2 API version
 
 
