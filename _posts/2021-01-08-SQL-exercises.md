@@ -10,40 +10,35 @@ Below are some exercises I had to work on for my 'Business Intelligence Techniqu
 /*
  *		TECH 60701 -- Technologies de l'intelligence d'affaires
  *					HEC Montréal
- *		Travail Pratique 2
- *					Enseignant :
- *						J01 : Mehdi Lahlou
- *                      J02 : Gilbert Babin
- */
-
+*/
  use AdventureWorks2019
  go
 
 /*
 	Question #1 :
-		AdventureWorks aimerait mettre en œuvre le modèle de vitalité ("The vitality model") de l'ancien président-directeur général de General Electric,
-		Jack Welch, qui a été décrit comme un système "20-70-10". Les "20% les plus importants" des employés sont les plus productifs et 70% (les "70 
-		indispensables") travaillent correctement. Les 10% restants sont des non-producteurs et doivent être licenciés.
+		AdventureWorks would like to implement former General Electric Chairman and CEO Jack Welch's "The vitality model",
+		Jack Welch, which has been described as a "20-70-10" system. The "most important 20%" of employees are the most productive, and 70% (the "indispensable 70 
+		indispensable") work well. The remaining 10% are non-producers and must be let go.
 
-		En utilisant une clause de classement et une sous-requête, vous devez écrire une requête pour identifier les "20% les plus performants" des vendeurs
-		(pour les féliciter et les encourager!) ainsi que les 10% les moins performants  (pour les mettre à la porte <insèrez le rire diabolique ici>) !!
-		On ne veut donc pas voir apparaître dans le rapport les vendeurs appartenant au 70% restant.
+		Using a ranking clause and a subquery, you need to write a query to identify the "top 20%" of sales people
+		(to congratulate and encourage them!) as well as the bottom 10% (to kick them out <insert evil laugh here>)!!!
+		So we don't want the salespeople belonging to the remaining 70% to appear in the report.
 
-		(Par vendeurs, on fait référence aux commis de vente, peu importe le titre de poste.)
+		(By salespeople, we're referring to sales clerks, regardless of job title.)
 		
-		Comme AdventureWorks vend essentiellement des vélos, le printemps (mars à mai, incl.) est crucial pour ses résultats financiers.
-		Donc, l'analyse doit uniquement tenir compte du sous-total des ventes que les vendeurs ont réalisées pour 
-		cette période, quelle que soit l'année. Il faut afficher, pour chaque résultat :
+		Since AdventureWorks sells mainly bicycles, spring (March to May, incl.) is crucial to its financial results.
+		Therefore, the analysis should only take into account the subtotal sales that salespeople have achieved for this 
+		period, whatever the year. For each result, the following should be displayed
 
-			- L'identifiant du vendeur
-			- Le "National ID Number" du vendeur
-			- Le prénom du vendeur
-			- Le nom de famille du vendeur
-			- La somme du sous-total vendu par le vendeur pour le quatrième trimestre (formaté en dollars, c.-à-d. $xxx.xx)
-			- Le rang en pourcentage du vendeur (formaté en pourcentage avec deux points de précision)
-			- Le décile auquel appartient le vendeur
-			- Un message personnalisé pour : le 1er décile 'Excellente performance !'; le 2e décile 'Continuez, vous allez bien !'
-				le 10e décile 'Cherchez vous un emploi ailleurs !'
+			- Salesperson ID
+			- Seller's National ID Number
+			- Seller's first name
+			- Seller's surname
+			- The seller's subtotal sales for the fourth quarter (formatted in dollars, i.e. $xxx.xx)
+			- The seller's percentage rank (formatted as a percentage with two points of precision)
+			- The decile to which the seller belongs
+			- Personalized message for: 1st decile 'Excellent performance!'; 2nd decile 'Keep up the good work!
+				10th decile 'Are you looking for a job elsewhere?
 */
 
 
