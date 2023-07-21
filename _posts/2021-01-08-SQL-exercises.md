@@ -4,7 +4,7 @@ layout: post
 
 # SQL exercises
 
-
+Below are some exercises I had to work on for my 'Business Intelligence Techniques' class. Every exercise took some time to figure out, but I decided it would be a good sample work to showcase how much I can accomplish. During this class I also learned about Related database concepts and SQL concepts. The class was in french therefore the questions are (for now) in french, I will work on their translations in the days to come (starting from now 20th of July 2023).
 
 ``` sql
 /*
@@ -81,14 +81,16 @@ select
 
 /*
 	Question #2 :
-		AdventureWorks voudrait explorer les achats d'accessoires (produits non-fabriqués) effectués par ses clients. On s'interesse particulièrement aux accessoires qui ont
-		été commandés par des magasins situés au Canada en même temps qu'ils ont effectués des achats vélos (produits fabriqués par AdventureWorks).
-		Donc, les données doivent être affichées seulement pour les ventes faites aux magasins (pas de clients individuels) qui ont achetés des vélos.
+		AdventureWorks would like to explore its customers' purchases of accessories (non-manufactured products). We are particularly interested in accessories that were ordered
+		were ordered by stores located in Canada at the same time as they made bicycle purchases (products manufactured by AdventureWorks).
+		Therefore, data should be displayed only for sales made to stores (not individual customers) who purchased bicycles.
 		
-		En utilisant une CTE, vous devez afficher une liste contenant les informations groupées par l'identificateur du produit, le nom du produit,
-		le numéro du produit.
+		Using a CTE, you should display a list containing information grouped by product identifier, product name,
+		product number.
 
-		Votre rapport doit contenir seulement quatre colonnes comme suit:
+		Your report should contain only four columns, as follows:
+
+
 		
 		ProductID	|Name						|ProductNumber	|OrderCount	|Rang
 		715			|Long-Sleeve Logo Jersey, L	|LJ-0192-L		|238		|1
@@ -96,13 +98,12 @@ select
 		708			|Sport-100 Helmet, Black	|HL-U509		|190		|3
 		...			|...						|...			|...		|...
 
-		Ceci indique par exemple que, pour l’ensemble des commandes faites par des magasins dans lesquelles des produits fabriqués ont été achetés, 238 
-		commandes incluaient également l’achat du produit 715 (Long-Sleeve Logo Jersey, L), 237 commandes incluaient l’achat du produit 712	(AWC Logo Cap),
-		etc. Le rang utilisé ne permet pas de sauts de valeur.
+		This indicates, for example, that of all the orders placed by stores in which manufactured products were purchased, 238 
+		orders also included the purchase of product 715 (Long-Sleeve Logo Jersey, L), 237 orders included the purchase of product 712 (AWC Logo Cap),
+		etc. The rank used does not allow value jumps.
 
-		Trier par "OrderCount", par ordre décroissant.
+		Sort by "OrderCount", in descending order.
 */
-
 	--7385 
 with CTEQ2(ProductID, Name, ProductNumber,SalesOrderID, SalesOrderDetailID) as
 (
@@ -136,12 +137,12 @@ soh.SalesOrderID, sod.SalesOrderDetailID
 
 /*
 	Question #3 a) :
-		On vous demande de fournir une requête affichant les détails suivants sur les fournisseurs actifs, avec statut privilégié, chez
-		lesquels AdventureWorks a fait moins de 30 commandes. Afficher :
-			- L'identifiant du fournisseur
-			- La date de la commande
-			- Un numéro de séquence attribué à chaque commande faite auprés du fournisseur, en débutant avec la plus récente commande
-			- Le sous-total de chaque commande (formaté en dollars, c.-à-d. $xxx.xx)
+		You are asked to provide a query displaying the following details of active suppliers, with preferred status, from whom
+		from whom AdventureWorks has placed fewer than 30 orders. Show:
+			- Supplier ID
+			- Order date
+			- A sequence number assigned to each order placed with the supplier, starting with the most recent order
+			- The subtotal of each order (formatted in dollars, i.e. $xxx.xx)
 */
 
 
@@ -160,24 +161,24 @@ select poh.VendorID
 
 /*
 	Question #3 b) :
-		AdventureWorks voudrait savoir qui parmi ces fournisseurs privilégiés (chez lesquels AdventureWorks a fait moins de 30 commandes) a
-		tendance à augmenter ses prix. L'entreprise souhaite utiliser ces informations afin de leur retirer le statut de "fournisseur
-		privilégié". On émet ici l'hypothèse que les commandes auprès d'un fournisseur restent stables à travers le temps et sont donc
-		toujours pour des produits/quantités similaires.
+		AdventureWorks would like to know which of these preferred suppliers (with whom AdventureWorks has placed fewer than 30 orders) tends to
+		tend to increase their prices. The company would like to use this information to remove their "preferred supplier" status.
+		supplier" status. The assumption here is that orders from a supplier remain stable over time and are therefore
+		always for similar products/quantities.
 				
-		En utilisant une CTE basée sur la requête de la Partie a), construisez une requête qui affichera la liste des fournisseurs pour lesquels
-		le montant moyen (en utilisant le sous-total) de leurs trois commandes les plus récentes est supérieur au montant moyen qu’ils ont demandé 
-		à AdventureWorks jusqu’à présent.
+		Using a CTE based on the query in Part a), build a query that will display the list of suppliers for which
+		the average amount (using the subtotal) of their three most recent orders is greater than the average amount they have requested 
+		AdventureWorks to date.
 
-		On voudra afficher :
-			- L'identifiant du fournisseur
-			- Le montant moyen des toutes les commandes faites auprès du fournisseur
-			- Le montant moyen des trois commandes les plus récentes faites auprès du fournisseur
-			- La différence entre le montant moyen des trois commandes les plus récentes faites auprès du fournisseur et le montant moyen des
-				toutes les commandes faites auprès du fournisseur.
+		We'd like to display :
+			- Supplier ID
+			- The average amount of all orders placed with the supplier
+			- The average amount of the three most recent orders placed with the supplier
+			- The difference between the average amount of the three most recent orders placed with the supplier and the average amount of all orders placed with the supplier.
+				all orders placed with the supplier.
 
-		Votre rapport doit contenir seulement ces quatre colonnes et être filtré par la diminution relative aux coûts d'acquisition, de façon 
-		que la réduction la plus importante soit en tête de la liste. Tous les montants doivent être formatés en dollars, c.-à-d. $xxx.xx.
+		Your report should contain only these four columns, and be filtered by the reduction in acquisition costs, so that 
+		so that the largest reduction is at the top of the list. All amounts must be formatted in dollars, i.e. $xxx.xx.
 */
 
 

@@ -2,15 +2,30 @@
 layout: post
 ---
 
-This project is based on the Research paper written by Jeffrey S. Jones et Brian Kincaid named "Can the correlation among Dow 30 stocks predict market declines?". In my project I add 
+This project is based on the Research paper written by Jeffrey S. Jones et Brian Kincaid named "Can the correlation among Dow 30 stocks predict market declines?". I did this research as part of my Economics bachelors, it's a master's degree class so I got special permission to take it. It was the hardest class I have taken so far!
 
 
-The project is 
+In this research I used OLC, MCO and GMM regressions.
 
+### Conclusion of my research
 
-<embed src="/images/Maricarmen Arenas-Travail-session-eco8620.pdf" width="100%" height="850px" />
+In conclusion, I'd like to point out that several articles mention that an increase in correlations between assets is linked to financial crises. Articles [^1], [^2] and [^3] in my bibliography mention this and cite other studies which also mention it. Financial crises are a scourge for the economy and it would be interesting to find a way of preventing them in order to limit the damage. This method would be a useful tool for legislators and portfolio managers alike, and would benefit investors and the general public alike. Correlations are a relatively simple way of predicting market declines. It would therefore be of great importance to be able to retest Jones and Kincaid's (2014) method of regressing retained returns on rolling correlations between assets. In fact, according to the "Econpapers" site [^10], Jones and Kincaid's study is the first to attempt to predict market returns (S&P 500) using correlations between Dow 30 assets (with historical data). So, despite the fact that my work has not proven that correlations can predict a market decline, I firmly believe that the study is valid and should be repeated.
 
-## Code R 
+Pplease take a look at the PDF for more detail!
+
+{: data-content="footnotes"}
+
+[^1]: Winkelmann, Rainer. “Health care reform and the number of doctor’s visits- an econometric analysis .” Journal of applied Economics 19: 455-472 (2004). IDEAS. 7 Novembre 2015. Web. http://onlinelibrary.wiley.com.proxy.bibliotheques.uqam.ca:2048/doi/10.1002/jae.764/abstract
+[^2]: Gerfin, Michael; Schellhorn, Martin. “Nonparametric bounds on the effect of deductibles in health care insurance on doctor visits- Swiss evidence”. Healh Economics. 15:1011-1020 (2006).PubMed. Web. 7 November 2015.
+<http://www.ncbi.nlm.nih.gov/pubmed/16596581>
+[^3]: Ziebarth, Nicolas R. “Assessing the effectiveness of health care cost containment measures: evidence from the market for rehabilitation care”. International Journal of Health Care Finances and Economics. 14:41-67(2014). PubMed.Web. 7 Novembre 2015.
+<http://www.ncbi.nlm.nih.gov/pubmed/24306855>
+[^10]: BALAN Marius,Traoré San Nouhoun ‘’La reforme des prix des medicaments géneriques et les economies de couts des regimes privés ”. (Novembre 2012 ). 4 Décembre 2015 < http://www.conseiller.ca/files/2012/10/8-generiques_1112.pdf>
+
+<embed src="/images/MaricarmenArenasTravail-session-eco8620.pdf" width="100%" height="850px" />
+
+## Code Stata
+Here below is the code I programmed on STATA (The software  used for statistical analysis)
 
 ``` C++
 

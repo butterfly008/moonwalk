@@ -22,8 +22,9 @@ project_entries:
     desc: Some examples of Auotmation done with VBA. The Excel macros are showcased here and can also be downloaded.  
  
   - title: Crimes in Baltimore - Data analysis 
-    url: data-analysis-kaggles
-    desc: Here you can find a Link to my project done jupiter 
+    #url: data-analysis-kaggles
+    url: https://www.kaggle.com/code/marial2/data-analysis-of-crimes-in-baltimore
+    desc: Statistical analysis of Crimes in Baltimore done on Kaggles (done with Jupyter notes with Python).
     #highlight: WIP
 
   - title: Financial Econometrics projects
@@ -33,12 +34,16 @@ project_entries:
 
   - title: SLQ exercises
     url: sql-exercises
-    desc: Sample exercises - The exercise questions are written in French and will eventually be translated.
+    desc: Sample SQL exercises dones during my one of my Business Intelligence class. These are complex queries!
 
   - title: Twitter API V2
     url: twitter-api-v2
-    desc: Python code to retreive twitters with V2 API version
-
+    desc: Python code to retreive twitters with V2 API version. I modified this code so I could retreive exactly what I needed. I used this code was used to retreive the data I used for my Master's Thesis.
+  
+  - title: Tableau Project
+    url: tableau-project
+    desc: Here I share the link to my Tableau project
+    highlight: NEW
 
 Artistic_projects:
   - title: Soopr
