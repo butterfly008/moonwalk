@@ -22,9 +22,9 @@ project_entries:
     desc: Some examples of Auotmation done with VBA. The Excel macros are showcased here and can also be downloaded.  
  
   - title: Crimes in Baltimore - Data analysis 
-    #url: data-analysis-kaggles
-    url: https://www.kaggle.com/code/marial2/data-analysis-of-crimes-in-baltimore
-    desc: Statistical analysis of Crimes in Baltimore done on Kaggles (done with Jupyter notes with Python).
+    url: data-analysis-kaggles
+    #url: https://www.kaggle.com/code/marial2/data-analysis-of-crimes-in-baltimore
+    desc: Statistical analysis of Crimes in Baltimore done on Kaggles. Here I show you a summary and a link to my kaggle account. I also included a Python/Jupyter notes PDF file.
     #highlight: WIP
 
   - title: Financial Econometrics projects
@@ -42,7 +42,7 @@ project_entries:
   
   - title: Tableau Project
     url: tableau-project
-    desc: Here I share the link to my Tableau project
+    desc: Here I will my Tableau project (I just started working on it!)
     highlight: NEW
 
 Artistic_projects:
