@@ -40,9 +40,9 @@ project_entries:
     url: twitter-api-v2
     desc: Python code to retreive twitters with V2 API version. I modified this code so I could retreive exactly what I needed. I used this code was used to retreive the data I used for my Master's Thesis.
   
-  - title: Tableau Project
-    url: tableau-project
-    desc: Here I will my Tableau project (I just started working on it!)
+  - title: Tableau Project - Amazon Prime Analysis
+    url: https://public.tableau.com/app/profile/maricarmen.al1037/viz/AmazonPrimeGraphicalanalysis/Dashboard2
+    desc: This will redirect you to my Tableau Dashboard - The dataset is taken from Kaggle
     highlight: NEW
 
 Artistic_projects:
